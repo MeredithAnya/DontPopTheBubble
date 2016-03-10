@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Dont Pop the Bubble</title>
+</head>
+<body>
+	<canvas></canvas>
+	<script type="text/javascript" src="vendor/keymaster.js"></script>
+	<script type="text/javascript" src="lib/util.js"></script>
+	<script type="text/javascript" src="lib/bubble.js"></script>
+	<script type="text/javascript" src="lib/walls.js"></script>
+	<script type="text/javascript" src="lib/spike.js"></script>
+	<script type="text/javascript" src="lib/jewel.js"></script>
+	<script type="text/javascript" src="lib/game.js"></script>
+	
+
+
+    <script type="application/javascript">
+      (function () {
+        var canvasEl = document.getElementsByTagName("canvas")[0];
+        var width = 600;
+        var height = 600;
+        canvasEl.width = width;
+        canvasEl.height = height;
+        var ctx = canvasEl.getContext("2d");
+        var game = new Bubbles.Game(ctx);
+        game.renderStart();
+      })();
+    </script>
+
+</body>
+</html>
