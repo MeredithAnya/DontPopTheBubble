@@ -2,19 +2,27 @@
 <head>
 	<title>Dont Pop the Bubble</title>
     <link rel="stylesheet" type="text/css" href="./bubble.css">
+    <script src="./jquery-min.js"> </script>
+    
+
+
+
+    
 </head>
 <body>
-	<canvas></canvas>
-	<script type="text/javascript" src="vendor/keymaster.js"></script>
-	<script type="text/javascript" src="lib/util.js"></script>
-	<script type="text/javascript" src="lib/bubble.js"></script>
-	<script type="text/javascript" src="lib/walls.js"></script>
-	<script type="text/javascript" src="lib/spike.js"></script>
-	<script type="text/javascript" src="lib/jewel.js"></script>
-	<script type="text/javascript" src="lib/game.js"></script>
-	
+   
 
-
+   <div class="game">
+    <canvas></canvas>
+    <script type="text/javascript" src="vendor/keymaster.js"></script>
+    <script type="text/javascript" src="lib/util.js"></script>
+    <script type="text/javascript" src="lib/bubble.js"></script>
+    <script type="text/javascript" src="lib/walls.js"></script>
+    <script type="text/javascript" src="lib/spike.js"></script>
+    <script type="text/javascript" src="lib/jewel.js"></script>
+    <script type="text/javascript" src="lib/game.js"></script>
+    
+    
     <script type="application/javascript">
       (function () {
         var canvasEl = document.getElementsByTagName("canvas")[0];
@@ -27,6 +35,7 @@
         game.renderStart();
       })();
     </script>
+  </div>  
 
 </body>
 </html>

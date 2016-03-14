@@ -17,9 +17,24 @@ span, article, footer, time, small {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
+body {
+  background-color: black;
+}
 
 canvas {
+  position: relative;
 	background-image: url("./assets/cave.png");
 	background-size: 100% 100%;
+}
+
+.game {
+  position: relative;
+  margin: 0 auto;
+  width: 610px;
+  height: 600px;
+}
+
+/* Prevents slides from flashing */
+#slides {
+  display:none;
 }
