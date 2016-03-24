@@ -4,7 +4,7 @@
 
 <p>The object of the game is to keep the bubble alive as long as possible, and to collect as many gems as you can along the way! If you hit any of the spikes you die, watch out because as the levels increase there are more and more spikes…</p>
 </break>
-<a href="www.meredithanya.github.io/DontPopTheBubble">Play Now!</a>
+<a href="http://meredithanya.github.io/DontPopTheBubble">Play Now!</a>
 </break>
 
 </div>
